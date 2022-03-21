@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', cursive;
+}
+main{
+    background: url('./img/ea525ace1d75b3afcc5f73b77a9e842b.jpg');
+}
+/*Header*/
+.cor-padrao-links{
+    color: white!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao-nav{
+    background-color: transparent;
+    margin: 0 1rem;
+    color: white!important;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    transition: .3s;
+}
+.botao-nav:hover{
+    background-color: white;
+    color: black!important;
+}
+
+@media (max-width:980px) {
+    .botao-nav{
+        margin: 0.5rem 0rem;
+        text-align: center;
+    }
+}
+
+/*Learning*/
+
+#learn{
+    background-color: transparent;
+    height: 885px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.learn-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Titulo-principal{
+    font-size: 6rem;
+    margin: 1rem 0rem;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+.Sub-titulo-principal{
+    margin: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.Sub-Sub-titulo-principal{
+    margin: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+@media (max-width:426px) {
+    .Titulo-principal{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .botao-learn{
+        margin: 0rem 1.0rem;
+    }
+    .Sub-Sub-titulo-principal{
+        font-size: 0.8rem;
+    }
+    .Sub-titulo-principal{
+        font-size: 0.8rem;
+    }
+}
