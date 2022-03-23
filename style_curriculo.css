@@ -1,0 +1,40 @@
+
+.container-curriculo{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+main{
+    height: 100vh;
+}
+*{
+    font-family: none;
+}
+.cv{
+    color: white;
+    margin: 0rem 4.5%;
+}
+.cv-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0 2.5%;
+}
+.titulo-cv{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.titulo-cv::before{
+    content: '';
+    border-left-style: solid;
+    color: white!important;
+    margin-right: 0.5rem;
+}
+@media (max-width:426px) {
+    main{
+        height: 100%;
+    }
+    .custom-mobile{
+        flex-direction: column!important;
+    }
+    .cv-txta{
+        margin: 1rem 0;
+    }
+}

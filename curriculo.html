@@ -14,6 +14,7 @@
         crossorigin="anonymous"></script>
     <!--Css-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style_curriculo.css">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/01147d2664.js" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
             <div class="container-fluid">
-                <h1 class="navbar-brand fs-3"><a style="color:white;text-decoration:none;" href="./index.html">Cauê
+                <h1 class="navbar-brandfs-3"><a style="color:white;text-decoration:none;font-family:'Abril Fatface';" href="./index.html">Cauê
                         Falcão</a></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,20 +47,46 @@
         </nav>
     </header>
     <main>
-        <section id="learn" class="d-flex flex-column justify-content-center align-items-center">
-            <div class="d-flex justify-content-center">
-                <div class="learn-div-1  align-items-center">
-                    <h1 class="Titulo-principal">Cauê Falcão</h1>
-                    <div class="d-flex align-items-center ">
-                        <h5 class="Sub-titulo-principal">Progamador Web</h3>
-                            <h5 class="Sub-Sub-titulo-principal">Nivel : Estagio</h5>
-                    </div>
-                    <div class="d-flex mt-4 align-items-center">
-                        <a class="nav-link cor-padrao-links botao-nav botao-learn" href="./projetos.html">Projetos</a>
-                        <a class="nav-link cor-padrao-links botao-nav botao-learn" href="#">Certicados</a>
-                    </div>
-                </div>
-            </div>
+        <section class="cv">
+            <h1 class="color-titulo-paginas text-center" style="font-family: Arial, Helvetica, sans-serif;padding-top: 1rem;">Meu Curriculo</h1>
+            <section class="Sobre-min">
+                <h2 class="titulo-cv">Cauê José Olivera Falcão</h2>
+                <h5 class="cv-txt">Progamador Web</h5>
+            </section>
+            <section class="experiencia">
+                <h2 class="titulo-cv">Experiencia</h2>
+                <hr class="divisor-cv">
+                <section class="d-flex custom-mobile">
+                    <section class="cv-txt">
+                        Outubro de 2021 - atual
+                    </section>
+                    <section class="experiencia-trabalho">
+                        <h3 class="cv-txt">Função : Progamador Web</h3>
+                        <ul>
+                            <li class="cv-txt">Criação de telas para o Governo</li>
+                            <li class="cv-txt">Estudo nas linguagens basicas como Html Css e Javascript</li>
+                            <li class="cv-txt">Experiencia com Vue para construção de um Projeto</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section class="educacao">
+                <h2 class="titulo-cv">Educação</h2>
+                <hr class="divisor-cv">
+                <section>
+                    <p class="cv-txt">ENSINO MEDIO - Previsão de conclusão de ensino medio para 2022</p>
+                    <p class="cv-txt">ENSINO SUPERIOR - Previão de inicio em 2023 na area de desenvolvimento de softwares</p>
+                </section>
+            </section>
+            <section class="cursos">
+                <h2 class="titulo-cv">Cursos e Certificados</h2>
+                <hr class="divisor-cv">
+                <p class="cv-txt">Curso de Html Css e Javascript Na Alura</p>
+                <p class="cv-txt">Curso de Bootstrap Na Alura</p>
+                <p class="cv-txt">Curso de Vue.js Pelo Youtube</p>
+                <p class="cv-txt">Curso Basico de Python</p>
+                <button class="botao-nav cv-txt">Mais Informações</button>
+            </section>
         </section>
     </main>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

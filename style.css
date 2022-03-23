@@ -102,3 +102,17 @@ main{
 .font-custom{
     font-family: Arial, Helvetica, sans-serif;
 }
+.color-titulo-paginas{
+    color: white;
+}
+
+.container-principal{
+    margin-top: 10rem;
+}
+
+
+/*Curriculo*/
+
+.container-curriculo{
+    background-color: rgba(0, 0, 0, 0.5);
+}
