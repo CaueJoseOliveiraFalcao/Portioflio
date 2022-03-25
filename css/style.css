@@ -4,7 +4,7 @@
     font-family: 'Abril Fatface', cursive;
 }
 main{
-    background: url('./img/ea525ace1d75b3afcc5f73b77a9e842b.jpg');
+    background: url('../img/ea525ace1d75b3afcc5f73b77a9e842b.jpg');
 }
 /*Header*/
 .cor-padrao-links{
@@ -37,7 +37,7 @@ main{
 
 #learn{
     background-color: transparent;
-    height: 885px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,12 +79,15 @@ main{
     .Sub-titulo-principal{
         font-size: 0.8rem;
     }
+    #learn{
+        height: 878px;
+    }
 }
 
 /*Projetos-Page*/
 
 .main-projetos{
-    height: 91.4vh;
+    height: 100VH;
 }
 @media (max-width:768px) {
     .main-projetos{
@@ -109,10 +112,35 @@ main{
 .container-principal{
     margin-top: 10rem;
 }
-
-
-/*Curriculo*/
-
-.container-curriculo{
-    background-color: rgba(0, 0, 0, 0.5);
+.git-hub-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.git-hub{
+    border-style: none;
+}
+.git-hub img{
+    width: 50px;
+    border-radius: 10px;
+}
+.titulo-projetos{
+    padding-top: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:1600px) {
+    .main-projetos{
+        height: 100%;
+    }
+}
+@media (max-width:426px) {
+    .titulo-projetos{
+        padding-top: 8rem;
+    }
+    .container-principal{
+        margin-top: 2rem
+    }
+    .card-custom{
+        margin: 2rem 0rem;
+    }
 }

@@ -1,0 +1,32 @@
+*{
+    font-family: none;
+}
+.certificados{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif!important;
+    font-size: 2rem;
+}
+.certificados-buttom{
+    background-color: transparent;
+    border-style: solid;
+    width: 80%;
+    border-color: white;
+    height: 8rem;
+    color: white;
+    transition: .3s;
+}
+.certificados-buttom:hover{
+    color: black;
+    background-color: white;
+}
+.titulo-certificado{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
