@@ -1,6 +1,13 @@
 *{
     font-family: none;
 }
+.nav-logo{
+    text-decoration: none;
+    color: white;
+}
+.nav-logo:hover{
+    color: white;
+}
 .certificados{
     height: 100vh;
     display: flex;
