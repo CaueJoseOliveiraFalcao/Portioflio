@@ -8,4 +8,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    border-style: solid;
+    width: 80%;
+    border-color: white;
+    height: 8rem;
+    color: white;
+    transition: .3s;
 }
