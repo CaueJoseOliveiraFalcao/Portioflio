@@ -16,3 +16,7 @@
     color: white;
     transition: .3s;
 }
+.link-certificado:hover{
+    background-color: white;
+    color: black;
+}
