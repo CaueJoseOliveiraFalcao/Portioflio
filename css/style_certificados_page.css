@@ -1,3 +1,11 @@
 #learn{
     height: 100%!important;
 }
+.link-certificado{ 
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
